@@ -1,0 +1,31 @@
+package com.monocept.model;
+
+public class ComplexNumber {
+	
+	private int real;
+	private int imagenary;
+	
+	public ComplexNumber() {
+		
+	}
+	public ComplexNumber(int real,int imagenary) {
+		this.real=real;
+		this.imagenary=imagenary;
+	}
+	public void setReal(int real) {
+		this.real=real;
+	}
+	public int getReal() {
+		return real;
+	}
+	public void setImagenary(int imagenary) {
+		this.imagenary=imagenary;
+	}
+	public int getImagenary() {
+		return imagenary;
+	}
+	public int Addition(int real,int imagenary) {
+		return()
+	}
+
+}

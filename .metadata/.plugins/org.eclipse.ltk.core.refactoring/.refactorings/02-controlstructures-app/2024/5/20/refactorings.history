@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.techlabs.ifelse.SwitchCase&apos; to &apos;SwitchCaseSeasons&apos;&#x0D;&#x0A;- Original project: &apos;02-controlstructures-app&apos;&#x0D;&#x0A;- Original element: &apos;com.techlabs.ifelse.SwitchCase&apos;&#x0D;&#x0A;- Renamed element: &apos;com.techlabs.ifelse.SwitchCaseSeasons&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SwitchCase&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.techlabs.ifelse{SwitchCase.java[SwitchCase" matchStrategy="1" name="SwitchCaseSeasons" qualified="false" references="true" similarDeclarations="false" stamp="1715587138736" textual="false" version="1.0"/>
+</session>

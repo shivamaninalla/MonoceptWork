@@ -1,0 +1,17 @@
+package com.monocept.test;
+
+import com.monocept.model.AccountType;
+import com.monocept.model.AxisBank;
+
+public class AxisBankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AxisBank axis=AxisBank(220,"Shivamani",12345.9,AccountType.Savings);
+
+	}
+
+	
+	
+
+}

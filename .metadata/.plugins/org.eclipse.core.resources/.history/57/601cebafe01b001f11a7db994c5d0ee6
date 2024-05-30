@@ -1,0 +1,32 @@
+package com.techlabs.enums;
+
+enum Planet{
+	MERCURY,VENUS,EARTH,MARS,JUPITER,SATURN,URANUS,NEPTUNE,PLUTO;
+	
+	
+}
+
+public class Enum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Planet myPlanet=Planet.MARS;
+		
+		canILive(myPlanet);
+		
+
+	}
+	
+	static void canILive(Planet myPlanet) {
+		
+		switch(myPlanet) {
+		case EARTH:
+			System.out.println("You can live here");
+			break;
+		default:
+			System.out.println("You cant live here");
+			break;
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.monocept.test;
+
+import java.util.Scanner;
+
+import com.monocept.model.AccountType;
+import com.monocept.model.AxisBank;
+
+public class AxisBankTest {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		AxisBank accounts[]=new AxisBank[3];
+		
+		for(int i=0;i<accounts.length;i++) {
+			accounts[i]=new AxisBank();
+			
+		}
+		
+
+	}
+
+	
+	
+
+}

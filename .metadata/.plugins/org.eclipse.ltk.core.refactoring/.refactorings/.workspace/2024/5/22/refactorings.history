@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;12-objectCalthelics&apos; to &apos;12-objectCalisthenics&apos;&#x0D;&#x0A;- Original element: &apos;12-objectCalthelics&apos;&#x0D;&#x0A;- Renamed element: &apos;12-objectCalthelics&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;12-objectCalthelics&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=12-objectCalthelics" name="12-objectCalisthenics" references="true" stamp="1716872602398" version="1.0"/>
+</session>
