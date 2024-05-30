@@ -13,8 +13,10 @@ public class Addition{
 		int Number1= scanner.nextInt();
 		System.out.println("Enter Second Number: ");
 		int Number2= scanner.nextInt();
+		System.out.println("Enter Second Number: ");
+		int Number3=scanner.nextInt();
 		
-		int sum=Number1+Number2;
+		int sum=Number1+Number2+Number3;
 		
 		System.out.println("Addition is: "+sum);
 
