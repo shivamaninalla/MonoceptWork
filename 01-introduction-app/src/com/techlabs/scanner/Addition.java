@@ -13,7 +13,7 @@ public class Addition{
 		int Number1= scanner.nextInt();
 		System.out.println("Enter Second Number: ");
 		int Number2= scanner.nextInt();
-		System.out.println("Enter Second Number: ");
+		System.out.println("Enter Third Number: ");
 		int Number3=scanner.nextInt();
 		
 		int sum=Number1+Number2+Number3;
