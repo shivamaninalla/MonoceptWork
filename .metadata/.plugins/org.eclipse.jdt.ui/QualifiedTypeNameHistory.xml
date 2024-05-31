@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.OOPS.app.Employee"/>
-<fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="com.monocept.model.Point"/>
 <fullyQualifiedTypeName name="com.monocept.model.StudentConstructor"/>
 <fullyQualifiedTypeName name="com.monocept.model.EmployeeConstructor"/>
@@ -15,4 +14,10 @@
 <fullyQualifiedTypeName name="com.monocept.model.StudentObjects"/>
 <fullyQualifiedTypeName name="com.monocept.model.InputValidator"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="com.monocept.model.StaticDemo"/>
+<fullyQualifiedTypeName name="com.monocept.model.Account"/>
+<fullyQualifiedTypeName name="com.monocept.model.BoxWeight"/>
 </qualifiedTypeNameHistroy>
