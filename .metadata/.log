@@ -1471,3 +1471,12 @@ Java Model Exception: Java Model Status [Unknown javadoc format for Select {key=
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2024-06-03 18:27:03.717
 !MESSAGE Unknown javadoc format for Select {key=Lcom/sun/org/apache/bcel/internal/generic/Select;} [in Select.class [in com.sun.org.apache.bcel.internal.generic [in C:\Program Files\Java\jre1.8.0_281\lib\rt.jar]]]
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-03 21:18:52.793
+!MESSAGE An internal error occurred during: "Search Marketplace for compatible editors (SerializationFile)".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.orderNodesByTagSubExtensionCount(DiscoverFileSupportJob.java:126)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:87)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
