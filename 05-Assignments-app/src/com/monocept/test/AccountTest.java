@@ -52,12 +52,12 @@ public class AccountTest implements Serializable{
 
 	private static void handleSavings(Scanner scanner, SavingsAccount savingsAccount) {
 		System.out.println("Select Operation");
-	    System.out.println("Select 1 for Create Account");
-        System.out.println("Select 2 for Display Account Details");
-        System.out.println("Select 3 for Credit into Account");
-        System.out.println("Select 4 for Debit from Account");
-        System.out.println("Select 5 for Exit");
-        int savings=scanner.nextInt();
+	        System.out.println("Select 1 for Create Account");
+                System.out.println("Select 2 for Display Account Details");
+                System.out.println("Select 3 for Credit into Account");
+                System.out.println("Select 4 for Debit from Account");
+                System.out.println("Select 5 for Exit");
+                int savings=scanner.nextInt();
 		switch(savings) {
 		case 1: System.out.println("You selected creating new Account");
 		        System.out.println("Please Enter personal Details ");
@@ -100,7 +100,7 @@ public class AccountTest implements Serializable{
 
 	private static void handleCurrent(Scanner scanner, CurrentAccount currentAccount) {
 		
-		System.out.println("Select Operation");
+        System.out.println("Select Operation");
         System.out.println("Select 1 for Create Account");
         System.out.println("Select 2 for Display Account Details");
         System.out.println("Select 3 for Credit into Account");
@@ -109,10 +109,10 @@ public class AccountTest implements Serializable{
         int current=scanner.nextInt();
         switch(current) {
 		case 1:
-			System.out.println("You selected creating new Account");
-	        System.out.println("Please Enter personal Details ");
-	        System.out.println("Enter Account Number: ");
-	        currentAccount.setAccountNumber(scanner.nextInt());
+		    System.out.println("You selected creating new Account");
+                    System.out.println("Please Enter personal Details ");
+	            System.out.println("Enter Account Number: ");
+	            currentAccount.setAccountNumber(scanner.nextInt());
 		    System.out.println("Enter Account Holder Name: ");
 		    currentAccount.setName(scanner.next());
 		    System.out.println("Enter Opening Balance: ");
