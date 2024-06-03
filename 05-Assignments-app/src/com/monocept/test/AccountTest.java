@@ -63,13 +63,13 @@ public class AccountTest implements Serializable{
 		        System.out.println("Please Enter personal Details ");
 		        System.out.println("Enter Account Number: ");
 		        savingsAccount.setAccountNumber(scanner.nextInt());
-			    System.out.println("Enter Account Holder Name: ");
-			    savingsAccount.setName(scanner.next());
-			    System.out.println("Enter Opening Balance: ");
-			    savingsAccount.setBalance(scanner.nextDouble());
-			    System.out.println("Enter Mininmum Balance: ");
-			    savingsAccount.setMinimumBalance(scanner.nextDouble());
-			    handleSavings(scanner, savingsAccount);
+			System.out.println("Enter Account Holder Name: ");
+			savingsAccount.setName(scanner.next());
+			System.out.println("Enter Opening Balance: ");
+			savingsAccount.setBalance(scanner.nextDouble());
+			System.out.println("Enter Mininmum Balance: ");
+			savingsAccount.setMinimumBalance(scanner.nextDouble());
+			handleSavings(scanner, savingsAccount);
 	            break;  
 		case 2:
 			savingsAccount.displaySavingsAccount(savingsAccount);
@@ -129,17 +129,17 @@ public class AccountTest implements Serializable{
 		       break;
 		       
 		case 3: System.out.println("You selected crediting into Account");
-	            System.out.println("Enter amount to credit: ");
-	            currentAccount.credit(scanner.nextDouble());
-	            handleCurrent(scanner,currentAccount);
-	            break;
+	                System.out.println("Enter amount to credit: ");
+	                currentAccount.credit(scanner.nextDouble());
+	                handleCurrent(scanner,currentAccount);
+	                break;
 	    
 		case 4: System.out.println("You selected Debiting from Account");
-                System.out.println("Enter amount to debit: ");
-                double amount1=scanner.nextDouble();
-                currentAccount.debit(currentAccount,amount1);
-                handleCurrent(scanner,currentAccount);
-                break;
+                        System.out.println("Enter amount to debit: ");
+                        double amount1=scanner.nextDouble();
+                        currentAccount.debit(currentAccount,amount1);
+                        handleCurrent(scanner,currentAccount);
+                        break;
 			
 		case 5:System.out.println("You Exit");
 			break;
