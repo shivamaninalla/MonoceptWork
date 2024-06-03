@@ -50,16 +50,12 @@ public class SavingsAccount extends Account{
 	
 	
 	
-//	public void display(SavingsAccount savingsAccount){
-//		System.out.println("Account_number: "+savingsAccount.getAccountNumber());
-//		System.out.println("Name: "+savingsAccount.getName());
-//		System.out.println("Balance: "+savingsAccount.getBalance());
-//	}
+
 	public void displaySavingsAccount(SavingsAccount savingsAccount) {
-	System.out.println("Your Account Details: ");
-    System.out.println("Your Account Number: "+savingsAccount.getAccountNumber());    
-    System.out.println("Your Name: "+savingsAccount.getName());
-    System.out.println("Your Balance: "+savingsAccount.getBalance());
+		System.out.println("Your Account Details: ");
+                System.out.println("Your Account Number: "+savingsAccount.getAccountNumber());    
+                System.out.println("Your Name: "+savingsAccount.getName());
+                System.out.println("Your Balance: "+savingsAccount.getBalance());
 	}
 
 }
