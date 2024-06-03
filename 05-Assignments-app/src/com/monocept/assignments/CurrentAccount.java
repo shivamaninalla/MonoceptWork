@@ -47,11 +47,7 @@ public class CurrentAccount extends Account{
 	}
 	
 	
-//	public void display(CurrentAccount currentAccount){
-//		System.out.println("Account_number: "+ currentAccount.getAccountNumber());
-//		System.out.println("Name: "+currentAccount.getName());
-//		System.out.println("Balance: "+currentAccount.getBalance());
-//	}
+
 	
 	public void displayCurrentAccount(CurrentAccount currentAccount) {
 		System.out.println("Your Account Details: ");
