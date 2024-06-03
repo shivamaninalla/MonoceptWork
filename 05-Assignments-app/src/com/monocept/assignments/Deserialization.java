@@ -11,7 +11,7 @@ public class Deserialization {
 		SavingsAccount savingsAccount=null;
 		try {
 			
-			FileInputStream fileInput=new FileInputStream("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\05-Assignments-app\\src\\com\\monocept\\assignments\\SerializationFile");
+		    FileInputStream fileInput=new FileInputStream("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\05-Assignments-app\\src\\com\\monocept\\assignments\\SerializationFile");
 		    ObjectInputStream in =new ObjectInputStream(fileInput);
 		    savingsAccount=(SavingsAccount)in.readObject();
 		    in.close();
