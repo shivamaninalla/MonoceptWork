@@ -5,14 +5,11 @@ import com.monocept.model.BoxWeight;
 public class BoxWeightTest {
 
 	public static void main(String[] args) {
-		
 		BoxWeight boxWeight=new BoxWeight();
 		
-		boxWeight.setHeight(20);
-		boxWeight.setLength(30);		
-		boxWeight.setWeight(40);
+		BoxWeight boxWeight1=new BoxWeight(40,30,20,10);
 		
-		boxWeight.setWidth(50);
+		
 
 		
 		

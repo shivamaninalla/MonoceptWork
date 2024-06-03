@@ -5,6 +5,19 @@ public class Box {
 	private int Height;
 	private int Width;
 	private int Length;
+	
+	public Box(int i) {
+		System.out.println(i);
+		System.out.println("In super class");
+	}
+	
+	public Box(int height, int width, int length) {
+		
+		Height = height;
+		Width = width;
+		Length = length;
+	}
+
 	public int getHeight() {
 		return Height;
 	}

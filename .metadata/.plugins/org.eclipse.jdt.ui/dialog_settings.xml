@@ -127,4 +127,7 @@
 			<item value="Desktop\controlStructures.jar"/>
 		</list>
 	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="true"/>
+	</section>
 </section>

@@ -13,11 +13,15 @@
 <fullyQualifiedTypeName name="com.monocept.model.AccountType"/>
 <fullyQualifiedTypeName name="com.monocept.model.StudentObjects"/>
 <fullyQualifiedTypeName name="com.monocept.model.InputValidator"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="com.monocept.model.StaticDemo"/>
 <fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="com.monocept.model.BoxWeight"/>
+<fullyQualifiedTypeName name="com.monocept.assignments.Car"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.monocept.assignments.CurrentAccount"/>
+<fullyQualifiedTypeName name="com.monocept.assignments.SavingsAccount"/>
+<fullyQualifiedTypeName name="com.monocept.assignments.Account"/>
 </qualifiedTypeNameHistroy>
