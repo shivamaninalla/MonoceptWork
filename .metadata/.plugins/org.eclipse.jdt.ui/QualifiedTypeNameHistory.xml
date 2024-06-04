@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.OOPS.app.Employee"/>
 <fullyQualifiedTypeName name="com.monocept.model.Point"/>
 <fullyQualifiedTypeName name="com.monocept.model.StudentConstructor"/>
 <fullyQualifiedTypeName name="com.monocept.model.EmployeeConstructor"/>
-<fullyQualifiedTypeName name="com.monocept.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.monocept.model.ComplexNumber"/>
 <fullyQualifiedTypeName name="com.monocept.model.AxisBank"/>
 <fullyQualifiedTypeName name="com.monocept.model.AccountType"/>
@@ -20,8 +18,21 @@
 <fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="com.monocept.model.BoxWeight"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.Car"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.CurrentAccount"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.SavingsAccount"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.Account"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="com.monocept.model.Boy"/>
+<fullyQualifiedTypeName name="com.monocept.model.Man"/>
+<fullyQualifiedTypeName name="com.monocept.model.Area"/>
+<fullyQualifiedTypeName name="com.monocept.model.Circle"/>
+<fullyQualifiedTypeName name="com.monocept.model.Rectangle"/>
+<fullyQualifiedTypeName name="com.monocept.model.Audio"/>
+<fullyQualifiedTypeName name="com.monocept.model.Video"/>
+<fullyQualifiedTypeName name="com.monocept.model.Playable"/>
+<fullyQualifiedTypeName name="com.model.monocept.PracticeNonSubClass"/>
+<fullyQualifiedTypeName name="com.model.monocept.PracticeSuperClass"/>
 </qualifiedTypeNameHistroy>
