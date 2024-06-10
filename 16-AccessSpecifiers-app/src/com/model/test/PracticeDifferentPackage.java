@@ -10,9 +10,12 @@ public class PracticeDifferentPackage extends PracticeSuperClass{
 		
 	      //psc.k=3;
 		
-	//	psc.display();
+      //	psc.display();
 		
 	//	psc.s=9;
+		PracticeDifferentPackage r=new PracticeDifferentPackage();
+		r.display();
+		
 		
 		psc.pub();
 

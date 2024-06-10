@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.OOPS.app.Employee"/>
 <fullyQualifiedTypeName name="com.monocept.model.Point"/>
 <fullyQualifiedTypeName name="com.monocept.model.StudentConstructor"/>
@@ -13,7 +12,6 @@
 <fullyQualifiedTypeName name="com.monocept.model.InputValidator"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="com.monocept.model.StaticDemo"/>
 <fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="com.monocept.model.BoxWeight"/>
@@ -21,18 +19,41 @@
 <fullyQualifiedTypeName name="com.monocept.assignments.CurrentAccount"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.SavingsAccount"/>
 <fullyQualifiedTypeName name="com.monocept.assignments.Account"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="com.monocept.model.Boy"/>
 <fullyQualifiedTypeName name="com.monocept.model.Man"/>
 <fullyQualifiedTypeName name="com.monocept.model.Area"/>
-<fullyQualifiedTypeName name="com.monocept.model.Circle"/>
-<fullyQualifiedTypeName name="com.monocept.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.monocept.model.Audio"/>
 <fullyQualifiedTypeName name="com.monocept.model.Video"/>
 <fullyQualifiedTypeName name="com.monocept.model.Playable"/>
 <fullyQualifiedTypeName name="com.model.monocept.PracticeNonSubClass"/>
 <fullyQualifiedTypeName name="com.model.monocept.PracticeSuperClass"/>
+<fullyQualifiedTypeName name="com.monocept.model.Circle"/>
+<fullyQualifiedTypeName name="com.monocept.model.Rectangle"/>
+<fullyQualifiedTypeName name="com.monocept.model.Shape"/>
+<fullyQualifiedTypeName name="com.monocept.model.Thermostat"/>
+<fullyQualifiedTypeName name="com.monocept.model.SecurityCamera"/>
+<fullyQualifiedTypeName name="com.monocept.model.SmartHome"/>
+<fullyQualifiedTypeName name="com.monocept.model.OuterClass"/>
+<fullyQualifiedTypeName name="com.monocept.model.OuterClass.InnerClass"/>
+<fullyQualifiedTypeName name="com.monocept.model.StaticClass"/>
+<fullyQualifiedTypeName name="com.monocept.model.StaticClass.StaticInnerClas"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.monocept.model.Voter"/>
+<fullyQualifiedTypeName name="com.monocept.exceptions.AgeInvalidException"/>
+<fullyQualifiedTypeName name="com.monocept.exceptions.InsufficientFundsException"/>
+<fullyQualifiedTypeName name="com.monocept.exceptions.NegativeAmountException"/>
+<fullyQualifiedTypeName name="com.monocept.model.BankAccountClass"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.monocept.model.Movie"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.monocept.exceptions.CapacityFullException"/>
+<fullyQualifiedTypeName name="com.monocept.exceptions.NoSuchMovieException"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

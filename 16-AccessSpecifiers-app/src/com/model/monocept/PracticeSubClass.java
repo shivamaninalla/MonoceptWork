@@ -8,6 +8,11 @@ public class PracticeSubClass extends PracticeSuperClass{
 		psc.k=3;
 		
 		psc.s=8;
+		
+		psc.display();
+		
+		PracticeSubClass d=new PracticeSubClass();
+		d.display();
 	}
 
 }

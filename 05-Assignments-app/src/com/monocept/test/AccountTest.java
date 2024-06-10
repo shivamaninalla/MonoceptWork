@@ -61,8 +61,10 @@ public class AccountTest implements Serializable{
 		switch(savings) {
 		case 1: System.out.println("You selected creating new Account");
 		        System.out.println("Please Enter personal Details ");
-		        System.out.println("Enter Account Number: ");
-		        savingsAccount.setAccountNumber(scanner.nextInt());
+		       // System.out.println("Enter Account Number: ");
+		       int k= savingsAccount.randomAccountNumber();
+		       System.out.println(k);
+		       savingsAccount.setAccountNumber(k);
 			System.out.println("Enter Account Holder Name: ");
 			savingsAccount.setName(scanner.next());
 			System.out.println("Enter Opening Balance: ");
@@ -112,7 +114,7 @@ public class AccountTest implements Serializable{
 		    System.out.println("You selected creating new Account");
                     System.out.println("Please Enter personal Details ");
 	            System.out.println("Enter Account Number: ");
-	            currentAccount.setAccountNumber(scanner.nextInt());
+	           // currentAccount.setAccountNumber(scanner.nextInt());
 		    System.out.println("Enter Account Holder Name: ");
 		    currentAccount.setName(scanner.next());
 		    System.out.println("Enter Opening Balance: ");

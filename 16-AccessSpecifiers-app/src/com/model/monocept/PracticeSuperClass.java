@@ -6,11 +6,11 @@ public class PracticeSuperClass {
 	int s;
 	
 	protected void display() {
-		System.out.println("I am protected");
+		System.out.println("I am in protected");
 	}
 	
 	public void pub() {
-		System.out.println("I am public");
+		System.out.println("I am in public");
 	}
 
 	

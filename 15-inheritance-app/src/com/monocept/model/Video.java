@@ -19,14 +19,14 @@ public class Video extends Playable{
 	@Override
 	public void play() {
 		// TODO Auto-generated method stub
-		System.out.println("Video is Playing. Resolution is: "+resolution+"Title is: "+title);
+		System.out.println("Video is Playing. Resolution is: "+resolution+" Title is: "+title);
 		
 	}
 
 	@Override
 	public void pause() {
 		// TODO Auto-generated method stub
-		System.out.println("Video is paused. Resolution is: "+resolution+"Title is: "+title);
+		System.out.println("Video is paused. Resolution is: "+resolution+" Title is: "+title);
 		
 		
 	}
@@ -34,7 +34,7 @@ public class Video extends Playable{
 	@Override
 	public void stop() {
 		// TODO Auto-generated method stub
-		System.out.println("Video is stopped. Resolution is: "+resolution+"Title is: "+title);
+		System.out.println("Video is stopped. Resolution is: "+resolution+" Title is: "+title);
 		
 	}
 	

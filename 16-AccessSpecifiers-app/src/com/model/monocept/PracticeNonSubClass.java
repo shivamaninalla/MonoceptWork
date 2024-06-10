@@ -8,7 +8,9 @@ public class PracticeNonSubClass {
 		psc.k=3;
 		psc.display();
 		psc.s=9;
+	PracticeNonSubClass h=new PracticeNonSubClass();
 		
+		//h.display();
 		
 
 	}

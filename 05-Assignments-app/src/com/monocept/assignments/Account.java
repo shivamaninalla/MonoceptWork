@@ -1,6 +1,7 @@
 package com.monocept.assignments;
 
 import java.io.Serializable;
+import java.util.Random;
 
 public class Account implements Serializable{
 	
@@ -43,6 +44,14 @@ public class Account implements Serializable{
 		balance+=amount;
 		System.out.println("Amount is credited");
 		System.out.println("Your balance is: "+balance);
+	}
+	Random random=new Random();
+	public int randomAccountNumber() {
+		int max=1100;
+		int min=1000;
+		int accountNumber=random.nextInt(max-min+1)+min;
+		return accountNumber;
+		
 	}
 	
 	

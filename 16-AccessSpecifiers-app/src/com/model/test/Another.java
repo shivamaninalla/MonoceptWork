@@ -12,6 +12,7 @@ public class Another {
 		kk.pub();
 		PracticeSuperClass l=new PracticeSuperClass();
 		//l.k=3;
+		
 	}
 
 }

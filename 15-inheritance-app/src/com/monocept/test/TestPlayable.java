@@ -11,14 +11,14 @@ public class TestPlayable {
 		//Audio audio=new Audio("Shivamani");
 		//Video video=new Video(420,"Hi");
 		
-		Playable playable=new Audio("Shivamani");
+		Playable playable=new Audio("Telusa Manasa");
 		
 		playable.play();
 		playable.pause();
 		playable.stop();
 		
 		
-		Playable playable1=new Video(420,"HI");
+		Playable playable1=new Video(420,"Pushpa");
 		playable1.play();
 		playable1.pause();
 		playable1.stop();
