@@ -2,7 +2,7 @@ package com.monocept.mda;
 
 import java.util.Scanner;
 
-public class MulOfTwoDArray {
+public class MatrixMultiplication {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
