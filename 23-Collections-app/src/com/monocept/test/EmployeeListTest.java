@@ -1,12 +1,17 @@
 package com.monocept.test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
 
 import com.monocept.model.Employee;
+import com.monocept.model.EmployeeById;
+import com.monocept.model.EmployeeByName;
+import com.monocept.model.EmployeeBySalary;
+import com.monocept.model.EmployeeComparator;
 
 public class EmployeeListTest {
 
@@ -43,7 +48,7 @@ public class EmployeeListTest {
 //			System.out.println(employeeIterator.next());
 //	}
 		
-	ListIterator employeeIterator1=employees.listIterator();
+	//ListIterator employeeIterator1=employees.listIterator();
 //		while(employeeIterator1.hasNext()) {
 //			System.out.println(employeeIterator1.next());
 //		}
@@ -58,6 +63,19 @@ public class EmployeeListTest {
 //		while(employeeIterator1 == null) {
 //			System.out.println(employeeIterator1);
 //		}
+		
+		//print according to names
+		System.out.println("Sorting with respect to Name");
+		Collections.sort(employees, new EmployeeComparator.EmployeesByName());
+		System.out.println(employees);
+		
+		System.out.println("Sorting with respect to Id");
+		Collections.sort(employees,new EmployeeComparator.EmployeesById());
+		System.out.println(employees);
+		
+		System.out.println("Sorting with respect to Salary");
+		Collections.sort(employees, new EmployeeComparator.EmployeesBySalary());
+		System.out.println(employees);
 }
 
 	

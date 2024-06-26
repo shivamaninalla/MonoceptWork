@@ -3,6 +3,7 @@ package com.monocept.model;
 public class Boy extends Man{
 	
 	public void eat() {
+	//	super.eat();
 		System.out.println("Boy is eating");
 	}
 	

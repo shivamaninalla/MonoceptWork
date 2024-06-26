@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import com.monocept.model.Person;
 
-public class ArrayListDemo {
+public class PersonTest {
 
 	public static void main(String[] args) {
 		ArrayList<Person> person=new ArrayList<Person>();
@@ -106,6 +106,7 @@ public class ArrayListDemo {
 		while(personIterator.hasNext()) {
 			System.out.println(personIterator.next());
 		}
+		System.out.println(person);
 		System.out.println("All the elements are removed from Array List");
 		
 	}
