@@ -26,6 +26,5 @@ INDEX VERSION 1.131+C:\Users\shiva\OneDrive\Desktop\workspace\.metadata\.plugins
 198665276.index
 851745302.index
 2617503290.index
-2368523752.index
 630723123.index
 275865876.index
