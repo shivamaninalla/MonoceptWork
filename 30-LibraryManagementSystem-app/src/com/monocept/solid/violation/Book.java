@@ -49,9 +49,9 @@ public class Book {
 		super();
 	}
 
-	public void returnBook(User user,String name, Book b) {
+	public void returnBook(User user,Book b) {
 		b.isBorrowed=false;
-		System.out.println(name+" returned the book");
+		System.out.println(user+" returned the book");
 	}
 	
 	static ArrayList<Book> books = new ArrayList<Book>();

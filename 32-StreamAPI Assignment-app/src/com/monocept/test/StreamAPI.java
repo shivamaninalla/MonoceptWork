@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class NameTest {
+public class StreamAPI {
 
 	public static void main(String[] args) {
 		
@@ -24,7 +24,7 @@ public class NameTest {
 		System.out.println("Enter Names: ");
 		
 		try {
-			BufferedWriter bufferWriter=new BufferedWriter(new FileWriter("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\28-streams-app\\src\\com\\monocept\\model\\Names"));
+			BufferedWriter bufferWriter=new BufferedWriter(new FileWriter("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\32-StreamAPI Assignment-app\\src\\com\\monocept\\model\\Names"));
 			String input;
 			while(!(input=scanner.next()).equalsIgnoreCase("1")) {
 				bufferWriter.write(input+" ");
@@ -41,8 +41,7 @@ public class NameTest {
 		
 		
 	try {
-		//FileInputStream fileInputStream=new FileInputStream("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\28-streams-app\\src\\com\\monocept\\model\\Names");
-		BufferedReader bufferReader=new BufferedReader(new FileReader("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\28-streams-app\\src\\com\\monocept\\model\\Names"));
+		BufferedReader bufferReader=new BufferedReader(new FileReader("C:\\Users\\shiva\\OneDrive\\Desktop\\workspace\\32-StreamAPI Assignment-app\\src\\com\\monocept\\model\\Names"));
 		String names;
 		try {
 			while((names=bufferReader.readLine())!=null) {

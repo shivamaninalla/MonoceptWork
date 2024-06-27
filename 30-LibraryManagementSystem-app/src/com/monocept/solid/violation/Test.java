@@ -53,19 +53,20 @@ public class Test {
 	private static boolean bookReturn(Scanner scanner, User user, Book book) {
 		System.out.println("Enter user name: ");
 		String name=scanner.next();
-		if(checkUser(name,user)) {
+		User checkUser1=checkUser(name,user);
+		if(checkUser1!=null) {
 			System.out.println("Enter the book name: ");
 			String booky=scanner.next();
 			for(Book books:book.books) {
 				if(booky.equals(books.getTitle()) && books.isBorrowed()==true) {
-					book.returnBook(user,name,books);
+					book.returnBook(checkUser1,books);
 					return true;
 				}
 			}
-			
+			System.out.println("You havent borrowed that book");
 			
 		}
-		System.out.println("You havent borrowed that book");
+		
 		return false;
 		
 	}
@@ -73,17 +74,21 @@ public class Test {
 	private static boolean bookBorrow(Scanner scanner, User user, Book book) {
 		System.out.println("Enter user name: ");
 		String name=scanner.next();
-        if(checkUser(name, user)) {
+		
+		User c=checkUser(name, user);
+        if(c!=null) {
 		System.out.println("Enter title of book you want: ");
 		String b=scanner.next();
-		for(User u:user.list) {
-			if(u.getName().equals(name)) {
-				 user.borrowBook(book, u,b);
+
+		for(Book books:book.books) {
+			if(b.equals(books.getTitle()) && books.isBorrowed()==false) {
+				System.out.println("Book is present and you borrowed");
+				user.borrowBook(books, c);
+				return true;
 			}
 		}
-		
 		 
-		
+		System.out.println("Sorry book is not present");
 		
 			
 		
@@ -92,17 +97,18 @@ public class Test {
 		return false;
 	}
 
-	private static boolean checkUser(String name, User user) {
+	private static User checkUser(String name, User user) {
 
 		for(User users:user.list) {
 			if(name.equals(users.getName())) {
 				System.out.println("You are verified");
 				
-				return true;
+				return users;
 			}
-			System.out.println("You are not verified");
+			
 		}
-		return false;
+		System.out.println("You are not verified");
+		return null;
 		
 	}
 

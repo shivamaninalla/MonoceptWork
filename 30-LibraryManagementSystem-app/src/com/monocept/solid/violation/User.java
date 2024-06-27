@@ -66,23 +66,18 @@ public class User {
 
 	
 
-	public boolean borrowBook(Book book, User user, String b) {
-		for(Book books:book.books) {
-			if(b.equals(books.getTitle()) && !books.isBorrowed()) {
-				System.out.println("Book is present and you borrowed");
-				
-				book.borrowBook(user,books);
+	public void borrowBook(Book book, User user) {
+		
+				book.borrowBook(user,book);
 				
 				
-				System.out.println(books);
-				return true;
+				System.out.println(book);
+				
 		
 				
-			}
 			
-		}
-		 System.out.println("Sorry book is not present");
-		return false;
+		 
+		
 		
 		
 		
