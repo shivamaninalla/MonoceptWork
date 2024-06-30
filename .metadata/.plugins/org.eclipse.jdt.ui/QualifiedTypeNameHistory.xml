@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicy"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicyComparator.InsurancePolicyByName"/>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicyComparator"/>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicyComparator.InsurancePolicyByAmount"/>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicyComparator.InsurancePolicyByCreationDate"/>
-<fullyQualifiedTypeName name="com.monocept.model.MyThread"/>
-<fullyQualifiedTypeName name="com.monocept.model.NewThread"/>
-<fullyQualifiedTypeName name="com.monocept.model.ThreadWithRunnableInterface"/>
-<fullyQualifiedTypeName name="com.monocept.model.CallMe"/>
-<fullyQualifiedTypeName name="com.monocept.model.Caller"/>
-<fullyQualifiedTypeName name="com.monocept.model.Q"/>
-<fullyQualifiedTypeName name="com.monocept.model.Task"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
@@ -32,7 +19,6 @@
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
 <fullyQualifiedTypeName name="java.util.function.Supplier"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.function.Function"/>
@@ -42,15 +28,12 @@
 <fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.Writer"/>
 <fullyQualifiedTypeName name="java.util.stream.DoubleStream"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.IAccount"/>
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.AccountFactory"/>
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.SavingsAccounttt"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.CatalogBook"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.RegisterUser"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.BookSolution"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.BorrowBookUser"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.ReturnBook"/>
+<fullyQualifiedTypeName name="com.monocept.creational.prototype.model.Police"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstractFactory.model.ICarFactory"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstractFactory.model.MarutiFactory"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstractFactory.model.ICars"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.ShoppingCart"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.Biscuit"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.Choclate"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.monocept.model.Product"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

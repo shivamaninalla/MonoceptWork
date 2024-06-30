@@ -22,7 +22,7 @@ public class SolutionTest {
 		BookSolution book=new BookSolution();
 		
 		RegisterUser registerUser=new RegisterUser();
-		CatalogBook catalogBook=new CatalogBook();
+	//	CatalogBook catalogBook=new CatalogBook();
 		ICatalogBook catalogBook1=new CatalogBook();
 		BorrowBookUser borrowBookUser=new BorrowBookUser();
 		Random random=new Random();
@@ -39,11 +39,11 @@ public class SolutionTest {
 			break;
 			case 2: addBook(scanner, book, catalogBook1);
 			break;
-			case 3:bookBorrow(scanner,user,book, registerUser, catalogBook, borrowBookUser);
+			case 3:bookBorrow(scanner,user,book, registerUser, catalogBook1, borrowBookUser);
 			break;
-			case 4:bookReturn(scanner, user, book, registerUser, catalogBook, returnBook);
+			case 4:bookReturn(scanner, user, book, registerUser, catalogBook1, returnBook);
 			break;
-			case 5:listofBooks(book, catalogBook);
+			case 5:listofBooks(book, catalogBook1);
 			break;
 			case 6:listofUsers(registerUser);
 			break;
@@ -66,7 +66,7 @@ public class SolutionTest {
 
 	
 
-	private static boolean bookReturn(Scanner scanner, UserSolution user, BookSolution book, RegisterUser registerUser, CatalogBook catalogBook, ReturnBook returnBook) {
+	private static boolean bookReturn(Scanner scanner, UserSolution user, BookSolution book, RegisterUser registerUser, ICatalogBook catalogBook, ReturnBook returnBook) {
 		System.out.println("Enter user name: ");
 		String name=scanner.next();
 		UserSolution checkUser1=checkUser(name,user, registerUser);
@@ -87,7 +87,7 @@ public class SolutionTest {
 		
 	}
 
-	private static boolean bookBorrow(Scanner scanner, UserSolution user, BookSolution book, RegisterUser registerUser, CatalogBook catalogBook, BorrowBookUser borrowBookUser) {
+	private static boolean bookBorrow(Scanner scanner, UserSolution user, BookSolution book, IRegister registerUser, ICatalogBook catalogBook, BorrowBookUser borrowBookUser) {
 		System.out.println("Enter user name: ");
 		String name=scanner.next();
 		
@@ -113,7 +113,7 @@ public class SolutionTest {
 		return false;
 	}
 
-	private static UserSolution checkUser(String name, UserSolution user,RegisterUser registerUser) {
+	private static UserSolution checkUser(String name, UserSolution user,IRegister registerUser) {
 
 		for(UserSolution registerUser1:registerUser.getUsers()) {
 			if(name.equals(registerUser1.getName())) {
@@ -128,7 +128,7 @@ public class SolutionTest {
 		
 	}
 
-	private static void listofBooks(BookSolution book, CatalogBook catalogBook) {
+	private static void listofBooks(BookSolution book, ICatalogBook catalogBook) {
 		System.out.println(catalogBook.getBooks());
 		
 	}
@@ -143,7 +143,7 @@ public class SolutionTest {
 		
 	}
 
-	private static void listofUsers(RegisterUser user) {
+	private static void listofUsers(IRegister user) {
 		System.out.println(user.getUsers());
 		
 	}

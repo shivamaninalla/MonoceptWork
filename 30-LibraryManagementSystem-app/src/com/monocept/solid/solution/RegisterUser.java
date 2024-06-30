@@ -14,7 +14,7 @@ public class RegisterUser implements IRegister{
 //	public RegisterUser() {
 //		super();
 //	}
-
+    
     public ArrayList<UserSolution> getUsers(){
     	return userSolution;
     }
