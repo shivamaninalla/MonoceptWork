@@ -3,6 +3,9 @@ package com.monocept.solid.violation;
 import java.util.Random;
 import java.util.Scanner;
 
+import com.monocept.solid.solution.RegisterUser;
+import com.monocept.solid.solution.UserSolution;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -10,8 +13,9 @@ public class Test {
 		Scanner scanner=new Scanner(System.in);
 
 		
-		User user=new User();
+		
 		Book book=new Book();
+		User user=new User();
 		
 		Random random=new Random();
 		
@@ -25,7 +29,7 @@ public class Test {
 			break;
 			case 2: addBook(scanner, book);
 			break;
-			case 3:bookBorrow(scanner,user,book);
+			case 3:bookBorrow(scanner,user ,book);
 			break;
 			case 4:bookReturn(scanner, user, book);
 			break;
@@ -139,7 +143,8 @@ public class Test {
 		String s="monocept";
 		String id=String.format("%s%d",s,ide);
 		User user1=new User(name,id);
-		user1.registerUser(user1);
+	    user1.registerUser(user1);
+	
 		
 		
 		

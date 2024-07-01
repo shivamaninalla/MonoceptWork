@@ -10,9 +10,10 @@ public class AccountTest {
 		Account account=new Account(1, "Shivamani", 1000);
 		account.registerNotifier(new EmailNotifier());
 		account.registerNotifier(new SmsNotifier());
+		account.registerNotifier(new EmailNotifier());
 		account.withdraw(200);
-		System.out.println("------");
-		account.deposit(10000);
+//		System.out.println("------");
+//		account.deposit(10000);
 
 	}
 

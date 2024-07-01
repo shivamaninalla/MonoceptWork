@@ -41,10 +41,18 @@ public class Account {
 		this.balance = balance;
 		notifiers = new ArrayList<INotifiers>();
 	}
-	public void registerNotifier(INotifiers iNotifier) {
-		notifiers.add(iNotifier);
+	public boolean registerNotifier(INotifiers iNotifier) {
+		for (INotifiers n : notifiers) {
+            if (n.getClass().equals(iNotifier.getClass())) {
+                System.out.println(iNotifier.getClass().getSimpleName() + " is already registered.");
+                return true;
+            }
+		
 	}
-	
+		
+		notifiers.add(iNotifier);
+		return false;
+	}
 	public void withdraw(double amount) {
 		if(amount<balance) {
 			balance-=amount;

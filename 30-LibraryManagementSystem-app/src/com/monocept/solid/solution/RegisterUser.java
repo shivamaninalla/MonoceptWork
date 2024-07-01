@@ -27,7 +27,7 @@ public class RegisterUser implements IRegister{
 
 
 	public RegisterUser(ArrayList<UserSolution> userSolution) {
-		super();
+	//	super();
 	    this.userSolution = userSolution;
 		
 	}
