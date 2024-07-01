@@ -8,15 +8,15 @@ public class StrategyTest {
 
 	public static void main(String[] args) {
 		
-		OperationStrategy op=new OperationStrategy(new AddOperation());
-		System.out.println(op.description());
-		System.out.println(op.doOperation(3, 4));
+		OperationStrategy openStrategy=new OperationStrategy(new AddOperation());
+		System.out.println(openStrategy.description());
+		System.out.println(openStrategy.doOperation(3, 4));
 		
 		System.out.println("----------------------");
 		
-		op.setiOperation(new MultiplyOperation());
-		System.out.println(op.description());
-		System.out.println(op.doOperation(0, 9));
+		openStrategy.setiOperation(new MultiplyOperation());
+		System.out.println(openStrategy.description());
+		System.out.println(openStrategy.doOperation(1, 9));
 
 	}
 
