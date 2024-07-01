@@ -3,6 +3,10 @@ package com.monocept.test;
 import java.io.IOException;
 import java.util.Scanner;
 
+import com.monocept.exceptions.DuplicateProduct;
+import com.monocept.exceptions.DuplicateSupplier;
+import com.monocept.exceptions.InsufficientStockException;
+import com.monocept.exceptions.InvalidProduct;
 import com.monocept.model.Inventory;
 import com.monocept.model.ProductManagement;
 import com.monocept.model.SupplierManagement;
@@ -22,6 +26,7 @@ public class Test {
 		
 		boolean x=true;
 		System.out.println("Hi customers this is Inventory Management System");
+		try {
 		while(x) {
 			System.out.println("1.Product Management\n2.Supplier Management\n3.Transaction Management\n4.Load the Data from file\n5.Save the Data to file\n6.Generate Reports\n7.Exit");
 			System.out.println("Enter your choice:");
@@ -43,7 +48,19 @@ public class Test {
 			x=false;
 			}
 		}
-		
+		}
+		catch(DuplicateProduct e) {
+			System.out.println(e.getMessage());
+		}
+		catch(DuplicateSupplier e) {
+			System.out.println(e.getMessage());
+		}
+		catch(InsufficientStockException e) {
+			System.out.println(e.getMessage());
+		}
+		catch(InvalidProduct e) {
+			System.out.println(e.getMessage());
+		}
 
 		
 		
@@ -84,11 +101,11 @@ public class Test {
 			System.out.println("Enter your choice: ");
 			int n=scanner.nextInt();
 			switch(n) {
-			case 1:transaction.addStock();
+			case 1:new Thread(()->transaction.addStock()).start();
 			break;
-			case 2:transaction.removeStock();
+			case 2:new Thread(()->transaction.removeStock()).start();
 			break;
-			case 3:transaction.transactionHistory();
+			case 3:new Thread(()->transaction.transactionHistory()).start();
 			break;
 			case 4:System.out.println("You got exit from Transaction Management");
 			y=false;

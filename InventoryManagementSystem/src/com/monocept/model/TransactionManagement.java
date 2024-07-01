@@ -6,6 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 import com.monocept.exceptions.InsufficientStockException;
+import com.monocept.exceptions.InvalidProduct;
 
 public class TransactionManagement {
 	Scanner scanner=new Scanner(System.in);
@@ -25,7 +26,7 @@ public class TransactionManagement {
 	}
 
 
-	public void addStock() {
+	public synchronized void  addStock() {
 		System.out.println("You coosed to add stock for a product");
 		System.out.println("Enter productID: ");
 		String n=scanner.next();
@@ -45,11 +46,16 @@ public class TransactionManagement {
 		}
 	}
 	
-	public void removeStock() {
+	public synchronized void removeStock() {
 		
 		System.out.println("You choosed to remove stock for a product");
 		System.out.println("Enter productID: ");
 		String n=scanner.next();
+		for(Product l:inventory.getProduct()) {
+			if(!l.getProductID().equals(n)) {
+				throw new InvalidProduct();
+			}
+		}
 	//	System.out.println("Stock present for that product: "+l.getQuantity());
 		System.out.println("Enter the stock to be removed");
 		int p=scanner.nextInt();
@@ -80,7 +86,7 @@ public class TransactionManagement {
 		throw new InsufficientStockException();
 	}
 
-	public void transactionHistory( ) {
+	public synchronized void transactionHistory( ) {
 		
 		for(Transaction l:inventory.getTransaction()) {
 			System.out.println(l);
