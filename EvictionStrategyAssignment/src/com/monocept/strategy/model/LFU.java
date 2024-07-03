@@ -10,9 +10,8 @@ public class LFU implements IEvictionStrategy {
 
 	@Override
 	public void doOperation(LinkedHashMap<String, Integer> map, LinkedList<String> readingOrder) {
-		
-		String minEntry = frequencyCount(map,readingOrder);
-		
+
+		String minEntry = frequencyCount(map, readingOrder);
 
 		map.remove(minEntry);
 
