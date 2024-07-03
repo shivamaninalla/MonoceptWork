@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
-<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
-<fullyQualifiedTypeName name="com.monocept.model.NewTask"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Future"/>
 <fullyQualifiedTypeName name="com.monocept.model.VideoPlayer"/>
 <fullyQualifiedTypeName name="com.monocept.model.PodcastPlayer"/>
@@ -38,7 +35,6 @@
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.AccountFactory"/>
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.SavingsAccounttt"/>
 <fullyQualifiedTypeName name="com.monocept.solid.solution.CatalogBook"/>
-<fullyQualifiedTypeName name="com.monocept.solid.solution.RegisterUser"/>
 <fullyQualifiedTypeName name="com.monocept.solid.solution.BookSolution"/>
 <fullyQualifiedTypeName name="com.monocept.solid.solution.BorrowBookUser"/>
 <fullyQualifiedTypeName name="com.monocept.solid.solution.ReturnBook"/>
@@ -49,9 +45,7 @@
 <fullyQualifiedTypeName name="com.monocept.adapter.model.ShoppingCart"/>
 <fullyQualifiedTypeName name="com.monocept.adapter.model.Biscuit"/>
 <fullyQualifiedTypeName name="com.monocept.adapter.model.Choclate"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.monocept.model.Product"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.io.EOFException"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="com.monocept.exceptions.DuplicateSupplier"/>
 <fullyQualifiedTypeName name="com.monocept.exceptions.InsufficientStockException"/>
 <fullyQualifiedTypeName name="com.monocept.exceptions.InvalidProduct"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.monocept.observerAccount.model.EmailNotifier"/>
+<fullyQualifiedTypeName name="com.monocept.strategy.model.MultiplyOperation"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.UserSolution"/>
+<fullyQualifiedTypeName name="com.monocept.solid.solution.RegisterUser"/>
 </qualifiedTypeNameHistroy>
